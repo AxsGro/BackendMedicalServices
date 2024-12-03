@@ -1,5 +1,5 @@
 const mysql = require('mysql2');
-
+//Modificar datos de base de datos para pruebas en distintos equipos
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
