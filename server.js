@@ -31,7 +31,7 @@ usersRoutes(app);
 
 //Usar IPv4 en el server.listen para realizar las pruebas
 
-server.listen(3000, '192.168.100.31' || 'localhost', function(){
+server.listen(3000, '192.168.100.17' || 'localhost', function(){
     console.log('Aplicacion de NodeJS ' + port + ' iniciada...');
 });
 
